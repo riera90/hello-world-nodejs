@@ -1,13 +1,13 @@
 import { ApiModelProperty } from '@nestjs/swagger';
+import { Todo } from '../interfaces/todo.interface';
 
-export class CreateTodoDto {
-  
+export class CreateTodoDto implements Todo {
   @ApiModelProperty()
-  readonly name: string;
-
-  @ApiModelProperty()
-  readonly description: string;
+  readonly name;
 
   @ApiModelProperty()
-  readonly done: boolean;
+  readonly description;
+
+  @ApiModelProperty()
+  readonly done;
 }
