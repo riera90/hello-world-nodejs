@@ -13,12 +13,12 @@ Toda la documentación del trabajo está ubicada en la [Wiki del repositorio](ht
 
 ## Código
 
-Todos los códigos de ejemplo se encuentran en este repositorio a través de las **tags** que proporciona **git**.
+Todos los códigos de ejemplo se encuentran en este repositorio a través de las ramas que proporciona git.
 
-En la documentación del trabajo estarán todos los enlaces a las distintas **tags** según se haga referencia al código.
+En la documentación del trabajo estarán todos los enlaces a las distintas ramas, según al código al que se haga referencia en la documentación.
 
-Para acceder a ellas, puedes hacerlo a través de GitHub en el menú desplegable que se encuentra encima del listado de ficheros. En el mismo en el que se puede cambiar entre las distintas ramas.
+Para acceder a ellas, puedes hacerlo a través de GitHub en el menú desplegable que se encuentra encima del listado de ficheros.
 
 También puedes clonar este repositorio con `git clone git@github.com:riera90/hello-world-nodejs.git` si utilizas **SSH** o con `git clone https://github.com/riera90/hello-world-nodejs.git`
 
-Una vez clonado el repositorio en tu máquina local. Puedes cambiar entre las distintas **tags** con `git checkout <nombre-de-la-tag>`
+Una vez clonado el repositorio en tu máquina local. Puedes cambiar entre las distintas ramas con `git checkout <nombre-de-la-rama>`
